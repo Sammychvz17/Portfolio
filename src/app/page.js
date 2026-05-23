@@ -7,23 +7,25 @@ const HomePage = () => {
     return (
     <div>
 
-        <div className="text-center font-bold text-4xl mb-4">      
-            <h1>Welcome to the Home Page</h1>
+        <div className="w-full bg-blue-100 text-left text-4xl mb-4 p-14 shadow-md">      
+            <h1 className="shadow-md">Samantha Chavez</h1>
         </div>
 
-        <div className="">
-            <p>This is the main landing page of our application.</p>
-        </div>
+       
         
         <div className="mt-6">  
             <nav>
-                <ul id="nav-list">
-                    <li id="home-link"><a href="/">Home</a></li>
-                    <li id="about-link"><a href="/about">About</a></li>
-                    <li id="contact-link"><a href="/contact">Contact</a></li>
-                    <li id="projects-link"><a href="/projects">Projects</a></li>
+                <ul id="nav-list" className= "flex justify-center text-4xl space-x-4" >
+                    <li id="home-link" className= "hover:shadow-lg text-gray-800"><a href="/">Home</a></li>
+                    <li id="about-link" className= "hover:shadow-lg text-gray-800"><a href="/about">About</a></li>
+                    <li id="contact-link" className= "hover:shadow-lg text-gray-800"><a href="/contact">Contact</a></li>
+                    <li id="projects-link" className= "hover:shadow-lg text-gray-800"><a href="/projects">Projects</a></li>
                 </ul>
             </nav>
+        </div>
+        <br />
+        <div className="text-center pd-4">
+            <p>This is the main landing page of our application.</p>
         </div>
 
     </div>
