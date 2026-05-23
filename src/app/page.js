@@ -7,7 +7,7 @@ const HomePage = () => {
     return (
     <div>
 
-        <div className="">      
+        <div className="text-center font-bold text-4xl mb-4">      
             <h1>Welcome to the Home Page</h1>
         </div>
 
@@ -15,7 +15,7 @@ const HomePage = () => {
             <p>This is the main landing page of our application.</p>
         </div>
         
-        <div className="">  
+        <div className="mt-6">  
             <nav>
                 <ul id="nav-list">
                     <li id="home-link"><a href="/">Home</a></li>
@@ -25,7 +25,7 @@ const HomePage = () => {
                 </ul>
             </nav>
         </div>
-        
+
     </div>
     );
 };
