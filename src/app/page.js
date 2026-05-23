@@ -5,11 +5,17 @@ import './globals.css';
 const HomePage = () => {
 
     return (
-        <div>
-         <div className="container mx-auto px-4 py-8">      
+    <div>
+
+        <div className="">      
             <h1>Welcome to the Home Page</h1>
         </div>
+
+        <div className="">
             <p>This is the main landing page of our application.</p>
+        </div>
+        
+        <div className="">  
             <nav>
                 <ul id="nav-list">
                     <li id="home-link"><a href="/">Home</a></li>
@@ -19,6 +25,8 @@ const HomePage = () => {
                 </ul>
             </nav>
         </div>
+        
+    </div>
     );
 };
 
