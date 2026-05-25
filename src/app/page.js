@@ -16,7 +16,6 @@ const HomePage = () => {
         <div className="mt-6">  
             <nav>
                 <ul id="nav-list" className= "flex justify-center text-4xl space-x-4" >
-                    <li id="home-link" className= "hover:shadow-lg text-gray-800"><a href="/">Home</a></li>
                     <li id="about-link" className= "hover:shadow-lg text-gray-800"><a href="/about">About</a></li>
                     <li id="contact-link" className= "hover:shadow-lg text-gray-800"><a href="/contact">Contact</a></li>
                     <li id="projects-link" className= "hover:shadow-lg text-gray-800"><a href="/projects">Projects</a></li>
