@@ -1,5 +1,5 @@
 import react from 'react';
-import {motion} from 'framer-motion';
+import { motion, AnimatePresence } from "motion/react";
 import './globals.css';
 
 
