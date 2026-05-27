@@ -36,13 +36,13 @@ const HomePage = () => {
                         id="home-link" className= "hover:shadow-lg text-gray-800"><a href="./">Home</a></motion.li>
                     <motion.li
                         whileHover={{ scale: 1.1 }}
-                        id="about-link" className= "hover:shadow-lg text-gray-800"><a href="./about">About</a></motion.li>
+                        id="about-link" className= "hover:shadow-lg text-gray-800"><a href="./components/About">About</a></motion.li>
                     <motion.li
                         whileHover={{ scale: 1.1 }}
-                        id="contact-link" className= "hover:shadow-lg text-gray-800"><a href="./contact">Contact</a></motion.li>
+                        id="contact-link" className= "hover:shadow-lg text-gray-800"><a href="./components/Contact">Contact</a></motion.li>
                     <motion.li
                         whileHover={{ scale: 1.1 }}
-                        id="projects-link" className= "hover:shadow-lg text-gray-800"><a href="./projects">Projects</a></motion.li>
+                        id="projects-link" className= "hover:shadow-lg text-gray-800"><a href="./components/Projects">Projects</a></motion.li>
                 </ul>
             </nav>
         </div>
