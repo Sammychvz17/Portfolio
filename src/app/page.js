@@ -60,8 +60,9 @@ const HomePage = () => {
         >
             <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </motion.div>
-        <Card title="Project Title" description="Project Description" image="/flower.jpg" />
-
+        <motion.div whileHover={{ scale: 1.1 }} className="flex justify-center mt-6">
+            <Card title="Project Title" description="Project Description" image="/flower.jpg" />
+        </motion.div>
     </div>
     );
 };
