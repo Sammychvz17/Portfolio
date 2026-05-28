@@ -60,8 +60,7 @@ const HomePage = () => {
         >
             <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </motion.div>
-
-            <Card title="Project Title" description="Project Description" image="/flower.jpg" />
+            <Card title="Project Title" description="Project Description" image="./img/flower.jpg" />
     </div>
     );
 };
