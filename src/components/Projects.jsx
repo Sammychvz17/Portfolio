@@ -1,4 +1,5 @@
 import Card from '@/components/Card';
+import flower from "@/assets/images/flower.jpg";
 
 
 const Projects = () => {
@@ -8,6 +9,16 @@ const Projects = () => {
             <p className="text-lg mb-4">
                 Here are some of the projects I've worked on. I'm proud of each one and the skills I developed while building them. Feel free to explore and learn more about my work!
             </p>
+        <section id="projects">
+            <Card
+                title="Project Title"
+                description="Project Description"
+                image={flower}
+            />
+        </section>
+
         </div>
     );
 }
+
+export default Projects;
