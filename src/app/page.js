@@ -17,10 +17,12 @@ const HomePage = () => {
 
     return (
     <div>
+    <Navbar />
       <section id="home">
         <h1>Samantha Chavez</h1>
         <p>Welcome to my portfolio.</p>
       </section>
+      
 
       <section id="about">
         <About />
@@ -33,6 +35,7 @@ const HomePage = () => {
       <section id="contact">
         <Contact />
       </section>
+
     </div>
     );
 };
