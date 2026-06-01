@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { motion, AnimatePresence } from "motion/react";
 
 function Card({ title, description, image }) {
@@ -12,6 +13,7 @@ function Card({ title, description, image }) {
         <Image
         src={image}
         alt={title}
+        className="card-image"
         width={400}
         height={250}
       />
