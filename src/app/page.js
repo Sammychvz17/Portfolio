@@ -8,19 +8,21 @@ import Link from "next/link";
 // Importing the global CSS styles and other components that will be used in the HomePage component.
 import './globals.css';
 import Navbar from "@/components/Navbar";
+import Home from "@/components/Home";
 import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Projects from "@/components/Projects";
+import Footer from "@/components/Footer";
 
 
 const HomePage = () => {
 
     return (
-    <div>
+    <main className="container">
     <Navbar />
+
       <section id="home">
-        <h1>Samantha Chavez</h1>
-        <p>Welcome to my portfolio.</p>
+        <Home />
       </section>
       
 
@@ -35,8 +37,8 @@ const HomePage = () => {
       <section id="contact">
         <Contact />
       </section>
-
-    </div>
+    <Footer />
+    </main>
     );
 };
 
