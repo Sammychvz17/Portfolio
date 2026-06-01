@@ -13,6 +13,7 @@ import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Projects from "@/components/Projects";
 import Footer from "@/components/Footer";
+import PageTransition from "@/components/PageTransitions";
 
 
 const HomePage = () => {
@@ -21,22 +22,60 @@ const HomePage = () => {
     <main className="container">
     <Navbar />
 
-      <section id="home">
+      <motion.section 
+        id="home"
+        initial={{ opacity: 0, y: 120, scale: 0.95 }}
+        whileInView={{ opacity: 1, y: 0, scale: 1 }}
+        transition={{
+            type: "spring",
+            stiffness: 90,
+            damping: 12,
+            mass: 0.8,}}
+        viewport={{ once: false, amount: 0.3 }}
+        >
         <Home />
-      </section>
-      
+      </motion.section>
 
-      <section id="about">
+    <motion.section
+        id="about"
+        initial={{ opacity: 0, y: 120, scale: 0.95 }}
+        whileInView={{ opacity: 1, y: 0, scale: 1 }}
+        transition={{
+            type: "spring",
+            stiffness: 90,
+            damping: 12,
+            mass: 0.8,}}
+        viewport={{ once: false, amount: 0.3 }}
+    >
         <About />
-      </section>
+    </motion.section>
 
-      <section id="projects">
+    <motion.section
+        id="projects"
+        initial={{ opacity: 0, y: 120, scale: 0.95 }}
+        whileInView={{ opacity: 1, y: 0, scale: 1 }}
+        transition={{
+            type: "spring",
+            stiffness: 90,
+            damping: 12,
+            mass: 0.8,}}
+        viewport={{ once: false, amount: 0.3 }}
+    >
         <Projects />
-      </section>
+    </motion.section>
 
-      <section id="contact">
+      <motion.section
+        initial={{ opacity: 0, y: 120, scale: 0.95 }}
+        whileInView={{ opacity: 1, y: 0, scale: 1 }}
+        transition={{
+            type: "spring",
+            stiffness: 90,
+            damping: 12,
+            mass: 0.8,}}
+        viewport={{ once: false, amount: 0.3 }}
+      >
         <Contact />
-      </section>
+      </motion.section>
     <Footer />
     </main>
     );

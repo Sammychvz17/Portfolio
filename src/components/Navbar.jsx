@@ -4,8 +4,8 @@ import Link from "next/link";
 
 const Navbar = () => {
     return (
-        <nav>
-            <ul id="nav-list">
+        <nav className="sticky top-0 z-50 backdrop-blur-md ">
+            <ul id="nav-list" className="flex justify-center gap-8 py-4 text-sm">
             <li>
                 <a href="#home">Home</a>
             </li>
