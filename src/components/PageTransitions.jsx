@@ -2,7 +2,7 @@
 
 import { motion } from "motion/react";
 
-export default function PageTransition({ children }) {
+function PageTransition({ children }) {
   return (
     <motion.div
       initial={{ opacity: 0, rotateX: 15, y: 50 }}
@@ -14,3 +14,5 @@ export default function PageTransition({ children }) {
     </motion.div>
   );
 }
+
+export default PageTransition;

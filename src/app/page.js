@@ -21,7 +21,6 @@ const HomePage = () => {
     return (
     <main className="container">
     <Navbar />
-
       <motion.section 
         id="home"
         initial={{ opacity: 0, y: 120, scale: 0.95 }}
