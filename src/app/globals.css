@@ -1,9 +1,8 @@
 @import 'tailwindcss';
 
 body {
-  padding: 20px 20px 60px;
-  max-width: 1200px;
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
 }
 
 .card {
@@ -27,8 +26,9 @@ html {
 
 
 section {
+  min-height: 100vh;
+  padding: 100px 40px;
   scroll-margin-top: 80px;
-  padding: 20px;
 }
 
 

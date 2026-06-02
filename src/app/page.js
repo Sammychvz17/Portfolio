@@ -19,8 +19,12 @@ import PageTransition from "@/components/PageTransitions";
 const HomePage = () => {
 
     return (
-    <main className="container">
+    <>
     <Navbar />
+
+
+    
+    <main className="container">
       <motion.section 
         id="home"
         initial={{ opacity: 0, y: 120, scale: 0.95 }}
@@ -34,6 +38,8 @@ const HomePage = () => {
         >
         <Home />
       </motion.section>
+
+
 
     <motion.section
         id="about"
@@ -49,6 +55,8 @@ const HomePage = () => {
         <About />
     </motion.section>
 
+
+
     <motion.section
         id="projects"
         initial={{ opacity: 0, y: 120, scale: 0.95 }}
@@ -63,6 +71,8 @@ const HomePage = () => {
         <Projects />
     </motion.section>
 
+
+
       <motion.section 
         id="contact"
         initial={{ opacity: 0, y: 120, scale: 0.95 }}
@@ -76,8 +86,11 @@ const HomePage = () => {
       >
         <Contact />
       </motion.section>
+     </main>
+
+
     <Footer />
-    </main>
+   </>
     );
 };
 
