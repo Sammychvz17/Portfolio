@@ -11,7 +11,6 @@ import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Projects from "@/components/Projects";
 import Footer from "@/components/Footer";
-import PageTransition from "@/components/PageTransitions";
 
 
 const HomePage = () => {
