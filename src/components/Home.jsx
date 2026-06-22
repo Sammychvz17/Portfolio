@@ -81,9 +81,10 @@ useEffect(() => {
             {displayed}
             <span className="animate-pulse">|</span>
         </h1>
-
-        <p className={`${inter.className} text-lg`}>
-          This is the home section of my portfolio website
+   
+        <p className={`${inter.className} text-md text-center max-w-xl mt-4`}>
+          Software Engineer | Web Developer | Tech Enthusiast.<br />
+          I create beautiful and functional web applications that solve real-world problems.
         </p>
       </div>
     </div>
